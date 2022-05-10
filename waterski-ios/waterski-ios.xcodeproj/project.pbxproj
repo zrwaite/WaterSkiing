@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49FB8AAC2829CA9100D769DE /* waterski_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB8AAB2829CA9100D769DE /* waterski_iosApp.swift */; };
+		49FB8AAE2829CA9100D769DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB8AAD2829CA9100D769DE /* ContentView.swift */; };
+		49FB8AB02829CA9500D769DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FB8AAF2829CA9500D769DE /* Assets.xcassets */; };
+		49FB8AB32829CA9500D769DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FB8AB22829CA9500D769DE /* Preview Assets.xcassets */; };
+		49FB8ABD2829CA9500D769DE /* waterski_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB8ABC2829CA9500D769DE /* waterski_iosTests.swift */; };
+		49FB8AC72829CA9500D769DE /* waterski_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB8AC62829CA9500D769DE /* waterski_iosUITests.swift */; };
+		49FB8AC92829CA9500D769DE /* waterski_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB8AC82829CA9500D769DE /* waterski_iosUITestsLaunchTests.swift */; };
+		49FB8AD6282A037000D769DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB8AD5282A037000D769DE /* HomeView.swift */; };
+		49FB8AD8282A049500D769DE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FB8AD7282A049500D769DE /* Data.swift */; };
+		49FCCBE9282A0DCB00A04B25 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBE8282A0DCB00A04B25 /* StoryView.swift */; };
+		49FCCBEB282ACBFB00A04B25 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBEA282ACBFB00A04B25 /* FavouritesView.swift */; };
+		49FCCBED282AD7F200A04B25 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBEC282AD7F200A04B25 /* FunFactsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49FB8AB92829CA9500D769DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49FB8AA02829CA9100D769DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FB8AA72829CA9100D769DE;
+			remoteInfo = "waterski-ios";
+		};
+		49FB8AC32829CA9500D769DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49FB8AA02829CA9100D769DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49FB8AA72829CA9100D769DE;
+			remoteInfo = "waterski-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49FB8AA82829CA9100D769DE /* waterski-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "waterski-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FB8AAB2829CA9100D769DE /* waterski_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterski_iosApp.swift; sourceTree = "<group>"; };
+		49FB8AAD2829CA9100D769DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49FB8AAF2829CA9500D769DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49FB8AB22829CA9500D769DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49FB8AB82829CA9500D769DE /* waterski-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waterski-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FB8ABC2829CA9500D769DE /* waterski_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterski_iosTests.swift; sourceTree = "<group>"; };
+		49FB8AC22829CA9500D769DE /* waterski-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "waterski-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FB8AC62829CA9500D769DE /* waterski_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterski_iosUITests.swift; sourceTree = "<group>"; };
+		49FB8AC82829CA9500D769DE /* waterski_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waterski_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		49FB8AD5282A037000D769DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		49FB8AD7282A049500D769DE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		49FCCBE8282A0DCB00A04B25 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		49FCCBEA282ACBFB00A04B25 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		49FCCBEC282AD7F200A04B25 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FB8AA52829CA9100D769DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FB8AB52829CA9500D769DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FB8ABF2829CA9500D769DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49FB8A9F2829CA9100D769DE = {
+			isa = PBXGroup;
+			children = (
+				49FB8AAA2829CA9100D769DE /* waterski-ios */,
+				49FB8ABB2829CA9500D769DE /* waterski-iosTests */,
+				49FB8AC52829CA9500D769DE /* waterski-iosUITests */,
+				49FB8AA92829CA9100D769DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49FB8AA92829CA9100D769DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49FB8AA82829CA9100D769DE /* waterski-ios.app */,
+				49FB8AB82829CA9500D769DE /* waterski-iosTests.xctest */,
+				49FB8AC22829CA9500D769DE /* waterski-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49FB8AAA2829CA9100D769DE /* waterski-ios */ = {
+			isa = PBXGroup;
+			children = (
+				49FB8AAB2829CA9100D769DE /* waterski_iosApp.swift */,
+				49FB8AAD2829CA9100D769DE /* ContentView.swift */,
+				49FCCBEC282AD7F200A04B25 /* FunFactsView.swift */,
+				49FB8AAF2829CA9500D769DE /* Assets.xcassets */,
+				49FB8AB12829CA9500D769DE /* Preview Content */,
+				49FB8AD5282A037000D769DE /* HomeView.swift */,
+				49FCCBE8282A0DCB00A04B25 /* StoryView.swift */,
+				49FCCBEA282ACBFB00A04B25 /* FavouritesView.swift */,
+				49FB8AD7282A049500D769DE /* Data.swift */,
+			);
+			path = "waterski-ios";
+			sourceTree = "<group>";
+		};
+		49FB8AB12829CA9500D769DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49FB8AB22829CA9500D769DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49FB8ABB2829CA9500D769DE /* waterski-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				49FB8ABC2829CA9500D769DE /* waterski_iosTests.swift */,
+			);
+			path = "waterski-iosTests";
+			sourceTree = "<group>";
+		};
+		49FB8AC52829CA9500D769DE /* waterski-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49FB8AC62829CA9500D769DE /* waterski_iosUITests.swift */,
+				49FB8AC82829CA9500D769DE /* waterski_iosUITestsLaunchTests.swift */,
+			);
+			path = "waterski-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49FB8AA72829CA9100D769DE /* waterski-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FB8ACC2829CA9500D769DE /* Build configuration list for PBXNativeTarget "waterski-ios" */;
+			buildPhases = (
+				49FB8AA42829CA9100D769DE /* Sources */,
+				49FB8AA52829CA9100D769DE /* Frameworks */,
+				49FB8AA62829CA9100D769DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "waterski-ios";
+			productName = "waterski-ios";
+			productReference = 49FB8AA82829CA9100D769DE /* waterski-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49FB8AB72829CA9500D769DE /* waterski-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FB8ACF2829CA9500D769DE /* Build configuration list for PBXNativeTarget "waterski-iosTests" */;
+			buildPhases = (
+				49FB8AB42829CA9500D769DE /* Sources */,
+				49FB8AB52829CA9500D769DE /* Frameworks */,
+				49FB8AB62829CA9500D769DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FB8ABA2829CA9500D769DE /* PBXTargetDependency */,
+			);
+			name = "waterski-iosTests";
+			productName = "waterski-iosTests";
+			productReference = 49FB8AB82829CA9500D769DE /* waterski-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49FB8AC12829CA9500D769DE /* waterski-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FB8AD22829CA9500D769DE /* Build configuration list for PBXNativeTarget "waterski-iosUITests" */;
+			buildPhases = (
+				49FB8ABE2829CA9500D769DE /* Sources */,
+				49FB8ABF2829CA9500D769DE /* Frameworks */,
+				49FB8AC02829CA9500D769DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FB8AC42829CA9500D769DE /* PBXTargetDependency */,
+			);
+			name = "waterski-iosUITests";
+			productName = "waterski-iosUITests";
+			productReference = 49FB8AC22829CA9500D769DE /* waterski-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49FB8AA02829CA9100D769DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					49FB8AA72829CA9100D769DE = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					49FB8AB72829CA9500D769DE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 49FB8AA72829CA9100D769DE;
+					};
+					49FB8AC12829CA9500D769DE = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 49FB8AA72829CA9100D769DE;
+					};
+				};
+			};
+			buildConfigurationList = 49FB8AA32829CA9100D769DE /* Build configuration list for PBXProject "waterski-ios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49FB8A9F2829CA9100D769DE;
+			productRefGroup = 49FB8AA92829CA9100D769DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49FB8AA72829CA9100D769DE /* waterski-ios */,
+				49FB8AB72829CA9500D769DE /* waterski-iosTests */,
+				49FB8AC12829CA9500D769DE /* waterski-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49FB8AA62829CA9100D769DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FB8AB32829CA9500D769DE /* Preview Assets.xcassets in Resources */,
+				49FB8AB02829CA9500D769DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FB8AB62829CA9500D769DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FB8AC02829CA9500D769DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FB8AA42829CA9100D769DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FCCBE9282A0DCB00A04B25 /* StoryView.swift in Sources */,
+				49FB8AD6282A037000D769DE /* HomeView.swift in Sources */,
+				49FB8AAE2829CA9100D769DE /* ContentView.swift in Sources */,
+				49FCCBED282AD7F200A04B25 /* FunFactsView.swift in Sources */,
+				49FB8AAC2829CA9100D769DE /* waterski_iosApp.swift in Sources */,
+				49FCCBEB282ACBFB00A04B25 /* FavouritesView.swift in Sources */,
+				49FB8AD8282A049500D769DE /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FB8AB42829CA9500D769DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FB8ABD2829CA9500D769DE /* waterski_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FB8ABE2829CA9500D769DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FB8AC92829CA9500D769DE /* waterski_iosUITestsLaunchTests.swift in Sources */,
+				49FB8AC72829CA9500D769DE /* waterski_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49FB8ABA2829CA9500D769DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49FB8AA72829CA9100D769DE /* waterski-ios */;
+			targetProxy = 49FB8AB92829CA9500D769DE /* PBXContainerItemProxy */;
+		};
+		49FB8AC42829CA9500D769DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49FB8AA72829CA9100D769DE /* waterski-ios */;
+			targetProxy = 49FB8AC32829CA9500D769DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49FB8ACA2829CA9500D769DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49FB8ACB2829CA9500D769DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49FB8ACD2829CA9500D769DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"waterski-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3747AJU379;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacwaite.waterski-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49FB8ACE2829CA9500D769DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"waterski-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 3747AJU379;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacwaite.waterski-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49FB8AD02829CA9500D769DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3747AJU379;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacwaite.waterski-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterski-ios.app/waterski-ios";
+			};
+			name = Debug;
+		};
+		49FB8AD12829CA9500D769DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3747AJU379;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacwaite.waterski-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waterski-ios.app/waterski-ios";
+			};
+			name = Release;
+		};
+		49FB8AD32829CA9500D769DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3747AJU379;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacwaite.waterski-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "waterski-ios";
+			};
+			name = Debug;
+		};
+		49FB8AD42829CA9500D769DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3747AJU379;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zacwaite.waterski-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "waterski-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FB8AA32829CA9100D769DE /* Build configuration list for PBXProject "waterski-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FB8ACA2829CA9500D769DE /* Debug */,
+				49FB8ACB2829CA9500D769DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FB8ACC2829CA9500D769DE /* Build configuration list for PBXNativeTarget "waterski-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FB8ACD2829CA9500D769DE /* Debug */,
+				49FB8ACE2829CA9500D769DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FB8ACF2829CA9500D769DE /* Build configuration list for PBXNativeTarget "waterski-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FB8AD02829CA9500D769DE /* Debug */,
+				49FB8AD12829CA9500D769DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FB8AD22829CA9500D769DE /* Build configuration list for PBXNativeTarget "waterski-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FB8AD32829CA9500D769DE /* Debug */,
+				49FB8AD42829CA9500D769DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49FB8AA02829CA9100D769DE /* Project object */;
+}
