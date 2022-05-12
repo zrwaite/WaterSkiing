@@ -19,6 +19,10 @@
 		49FCCBE9282A0DCB00A04B25 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBE8282A0DCB00A04B25 /* StoryView.swift */; };
 		49FCCBEB282ACBFB00A04B25 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBEA282ACBFB00A04B25 /* FavouritesView.swift */; };
 		49FCCBED282AD7F200A04B25 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBEC282AD7F200A04B25 /* FunFactsView.swift */; };
+		49FCCBF1282B5FCE00A04B25 /* ActivityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBF0282B5FCE00A04B25 /* ActivityData.swift */; };
+		49FCCBF3282B607F00A04B25 /* ActivityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBF2282B607F00A04B25 /* ActivityModels.swift */; };
+		49FCCBF7282CAEBE00A04B25 /* AccomplishmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBF6282CAEBE00A04B25 /* AccomplishmentsView.swift */; };
+		49FCCBF9282CAF4A00A04B25 /* AccomplishmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FCCBF8282CAF4A00A04B25 /* AccomplishmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		49FCCBE8282A0DCB00A04B25 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		49FCCBEA282ACBFB00A04B25 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
 		49FCCBEC282AD7F200A04B25 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+		49FCCBF0282B5FCE00A04B25 /* ActivityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityData.swift; sourceTree = "<group>"; };
+		49FCCBF2282B607F00A04B25 /* ActivityModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModels.swift; sourceTree = "<group>"; };
+		49FCCBF6282CAEBE00A04B25 /* AccomplishmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccomplishmentsView.swift; sourceTree = "<group>"; };
+		49FCCBF8282CAF4A00A04B25 /* AccomplishmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccomplishmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +119,11 @@
 				49FB8AB12829CA9500D769DE /* Preview Content */,
 				49FB8AD5282A037000D769DE /* HomeView.swift */,
 				49FCCBE8282A0DCB00A04B25 /* StoryView.swift */,
+				49FCCBF0282B5FCE00A04B25 /* ActivityData.swift */,
+				49FCCBF2282B607F00A04B25 /* ActivityModels.swift */,
 				49FCCBEA282ACBFB00A04B25 /* FavouritesView.swift */,
+				49FCCBF6282CAEBE00A04B25 /* AccomplishmentsView.swift */,
+				49FCCBF8282CAF4A00A04B25 /* AccomplishmentView.swift */,
 				49FB8AD7282A049500D769DE /* Data.swift */,
 			);
 			path = "waterski-ios";
@@ -275,10 +287,14 @@
 				49FCCBE9282A0DCB00A04B25 /* StoryView.swift in Sources */,
 				49FB8AD6282A037000D769DE /* HomeView.swift in Sources */,
 				49FB8AAE2829CA9100D769DE /* ContentView.swift in Sources */,
+				49FCCBF9282CAF4A00A04B25 /* AccomplishmentView.swift in Sources */,
 				49FCCBED282AD7F200A04B25 /* FunFactsView.swift in Sources */,
 				49FB8AAC2829CA9100D769DE /* waterski_iosApp.swift in Sources */,
+				49FCCBF3282B607F00A04B25 /* ActivityModels.swift in Sources */,
 				49FCCBEB282ACBFB00A04B25 /* FavouritesView.swift in Sources */,
+				49FCCBF1282B5FCE00A04B25 /* ActivityData.swift in Sources */,
 				49FB8AD8282A049500D769DE /* Data.swift in Sources */,
+				49FCCBF7282CAEBE00A04B25 /* AccomplishmentsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
