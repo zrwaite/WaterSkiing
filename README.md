@@ -1,3 +1,3 @@
 # WaterSkiing
 
-Project to learn SwiftUI and GraphQL
+Project to learn SwiftUI
